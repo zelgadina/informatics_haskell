@@ -1,5 +1,3 @@
-module Main where
-
 main = do
     v <- getLine
     t <- getLine
