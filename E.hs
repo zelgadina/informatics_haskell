@@ -1,8 +1,11 @@
 module Main where
 
 main = do
-    a <- getLine
-    putChar $ show $ (toInt a) `mod` 100 `div` 10
+    v <- getLine
+    t <- getLine
+    putStrLn $ show $ ((toInt t) * (toInt v)) `mod` mkad
 
 toInt :: String -> Int
 toInt = read
+
+mkad = 109
